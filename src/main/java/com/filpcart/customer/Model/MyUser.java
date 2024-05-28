@@ -19,7 +19,7 @@ public class MyUser {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private String userName;
+	private String username;
 	private String password;
 	private String role;
 
